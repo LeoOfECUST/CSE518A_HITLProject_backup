@@ -35,8 +35,8 @@ public class MomentumBar_BG : MonoBehaviour
     {
         
 
-        redScore = Mathf.Max(0, (redCorrect - redIncorrect) / redTotal) * 100;
-        blueScore = Mathf.Max(0, (blueCorrect - blueIncorrect) / blueTotal) * 100;
+        redScore = Mathf.Max(0, redCorrect / (redCorrect+redIncorrect)) * 100;
+        blueScore = Mathf.Max(0, blueCorrect / (blueCorrect+blueIncorrect)) * 100;
         float totalScore = blueScore + redScore;
         if (totalScore == 0) return;
         momentum = blueScore /  totalScore;
