@@ -1,0 +1,16 @@
+{
+    "playerScores": [
+        {
+            "playerName": "Red Team",
+            "correctAnswers": 56.0,
+            "incorrectAnswers": 19.0,
+            "totalAnswers": 72.0
+        },
+        {
+            "playerName": "Blue Team",
+            "correctAnswers": 56.0,
+            "incorrectAnswers": 21.0,
+            "totalAnswers": 69.0
+        }
+    ]
+}
